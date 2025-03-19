@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyCGGdC7NGQ7drlsrAOFb1rDmB3WrExqtvw'; // Replace with your actual API key
+const API_KEY = 'my-gemini-api-key'; // Replace with your actual API key
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
 
 const chatMessages = document.getElementById('chat-messages');
