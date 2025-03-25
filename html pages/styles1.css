@@ -1,0 +1,270 @@
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.logo {
+    position: relative;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img{
+    position: relative;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav {
+    background-color: #1bf4abee;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+nav a  {
+   
+    position: relative;
+    right: 5vw;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: green;
+    border-radius: 25px;   
+}
+
+.main-text {
+    position: relative;
+    font-size: 30px;
+    color: black;
+    right: 10vw;
+    top: 0vh;
+    height: 40rem;
+    text-align: right;
+    
+}
+
+.main-text h1 {
+  margin: 0px;
+  position: relative;
+  top:14vh;
+}
+.para{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 67vw;
+    top:34vh;
+    width: 500px;
+    height:22vh;
+    text-align: justify;
+    line-height: 1.6; 
+}
+
+.main-img img{
+    position: absolute;
+    top:0vh;
+    left: 16vw;
+    width:700px;
+    height: 600px; 
+}
+.heading-1{
+    position: absolute;
+    right: 19vw;
+    
+}
+.btn-find-medicines{
+    position: absolute;
+    right: 21vw;
+    top: 21vh;
+    background-color: #1bf48bee;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 19px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-find-medicines:hover{
+    background-color: green;
+    color: white;
+}
+.problems {
+    position: relative;
+    right: 0;
+    top: 5vh;
+    background-color: #f4f4f4;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.problems h1{
+   font-size:40px;
+    margin: 0;
+}
+
+.problem {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.problem-1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.problem-img img {
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background: none;
+    position: relative;
+    left:2vw;
+}
+.problem-img-1 img {
+    width: 480px;
+    height: 320px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    left: 43.5vw;
+    background: none;
+
+}
+
+.problem-text {
+    text-align: left;
+    position: absolute;
+    top:22px;
+    left: 36vw;
+    overflow:hidden;
+    height: 40vh;
+    
+}
+.problem-text-1 {
+    text-align: left;
+    position: absolute;
+    top:22px;
+    right: 42vw;
+    overflow:hidden;
+    height: 40vh;
+}
+
+.problem-text h2 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+}
+.problem-text-1 h2 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    
+    
+}
+
+.problem-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    height: 35vh;
+    width: 540px;
+   
+}
+.problem-text-1 p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    height: 35vh;
+    width: 540px;
+   
+}
+.solutions{
+    background-color: red;
+    height: 110vh;
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+
+}
+.solution h1{
+    position: absolute;
+    top:5px;
+    left:44vw;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.solution-1{
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    background-color: #ebebeb;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+}
+.solution-1 img{
+    height: 30vw;
+    width: 90vh;
+    border-radius: 30px;
+    position: absolute;
+    top:35px;
+    left: 2vw;
+}
+.solution-1 h2{
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 6vh;
+    right: 13vw;
+    z-index: 1;
+}
+.solution-1 p{
+    font-size: 20px;
+    line-height: 1.6;
+    z-index: 1;
+    position: absolute;
+    top: 11vh;
+    right: 2.15vw;
+    width: 500px;
+    height: 30vh;
+    text-align: justify;
+    
+}
