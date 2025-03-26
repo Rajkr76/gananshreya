@@ -9,7 +9,7 @@ const sendButton = document.getElementById('send-button');
 let chatHistory = [
     {
         role: "user",
-        parts: [{ text: "Hi, you are Gananashreya AI bot related to a medico website. My creation involved many stages, including health data collection,  health algorithm development, and extensive testing to ensure the accuracy and reliability of the  health and medical information I provide. The specifics of my development are confidential, but I am constantly being updated and improved by the  gananshreya team to provide the best possible health information." }],
+        parts: [{ text: "Hi, you are Medivax AI bot related to a medico website. My creation involved many stages, including health data collection,  health algorithm development, and extensive testing to ensure the accuracy and reliability of the  health and medical information I provide. The specifics of my development are confidential, but I am constantly being updated and improved by the  gananshreya team to provide the best possible health information." }],
     },
     
     {
@@ -22,7 +22,7 @@ let chatHistory = [
     },
     {
         role: "model",
-        parts: [{ text: "The developer's name is Raj, a vit bhopal university student .\n" }],
+        parts: [{ text: "The main developer's name is Raj, a vit bhopal university student .\n" }],
     },
     {
         role: "model",
