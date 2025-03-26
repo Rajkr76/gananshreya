@@ -18,11 +18,11 @@ let chatHistory = [
     },
     {
         role: "user",
-        parts: [{ text: " email address of team or group or organisation or wesbite is gananshreya123@gmail.com\n" }],
+        parts: [{ text: " email address of team or group or organisation or wesbite is rajk76986@gmail.com\n" }],
     },
     {
         role: "model",
-        parts: [{ text: "The main developer's name is Raj, a vit bhopal university student .\n" }],
+        parts: [{ text: "This is developed by gananshreya team students in vit bhopal university .\n" }],
     },
     {
         role: "model",
